@@ -5,13 +5,12 @@ on:
     types: [started]
     
 env:
-  ROM_LINK: your rom's direct link
-  ROM_LINK: https://repo.mirrorbot69.workers.dev/0:/aosp_sweet-ota-eng.adarsh-GMS.zip
+  ROM_LINK: https://mgb1.androidfilehost.com/dl/EcdZrLQRoTCGhJY_5jY6KQ/1646886851/17825722713688277821/RROS-Q-8.6.9-20220128-j4corelte-Unofficial.zip?
   ROM_TYPE: Generic
   BUILD_AB: true
-  BUILD_AONLY: false
-  ROM_AONLY: A.7z
-  ROM_AB: AB.7z
+  BUILD_AONLY: true
+  ROM_AONLY: RR_Aonly.7z
+  ROM_AB: RR_AB.7z
 jobs:
   build:
     runs-on: ubuntu-latest
